@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es_AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ana Paula Soler">
+    <meta name="description" content="pagina web ficticia de venta de libros">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Entre Líneas</title>
+    
+</head>
+
+<body>
+    <header>
+<!-- NAVBAR -->
+        <nav class="navbar bg-body-tertiary">
+
+            <div class="container-fluid d-flex flex-column flex-md-row">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/logo1.png"
+                        alt="Logo Entre Líneas">
+                </a>
+
+                <ul class="navbar-nav flex-row gap-3">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/libros.html">
+                            Libros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>        
+    </header>
+    <main>
+<!-- CAROUSEL -->
+    <section class="carousel-libros">
+
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+
+        <div class="carousel-contenedor">
+
+            <div class="carousel-slide slide-1">
+                <img src="./img/publicidad1.jpg"
+                     alt="Publicidad de libros">
+            </div>
+
+            <div class="carousel-slide slide-2">
+                <img src="./img/publicidad2.png"
+                     alt="Publicidad de editorial">
+            </div>
+
+            <div class="carousel-slide slide-3">
+                <img src="./img/publicidad3.png"
+                     alt="Novedades editoriales">
+            </div>
+
+        </div>
+
+        <div class="carousel-indicadores">
+
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+
+        </div>
+
+    </section>
+<!-- BIENVENIDA -->
+    <section class="bienvenida">
+    <div class="container text-center">
+
+        <h1>Descubrí tu próxima historia</h1>
+
+        <p>
+            En Entre Líneas encontrarás libros para todos los gustos.
+            Explorá novedades, clásicos y recomendaciones seleccionadas
+            para acompañarte en tu próxima lectura.
+        </p>
+
+        <a class="btn btn-libros" href="paginas/libros.html">
+            Ver libros
+        </a>
+
+    </div>
+    </section>
+<!-- CARDS -->
+<section class="libros-destacados">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Libros destacados
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-4">
+
+                <div class="card libro-card h-100">
+
+                    <img src="./img/libro1.png"
+                         class="card-img-top"
+                         alt="Portada del libro 1">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Antes De Que Se Enfrie El Café
+                        </h3>
+
+                        <p class="autor-libro">
+                            KAWAGUCHI, TOSHIKAZU
+                        </p>
+
+                        <p class="genero-libro">
+                            Género: Ficción moderna y contemporánea
+                        </p>
+
+                        <p class="precio-libro">
+                            $41.999,00
+                        </p>
+
+                        <a href="paginas/libros.html"
+                           class="btn btn-libro-card">
+                            Ver más
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4">
+
+                <div class="card libro-card h-100">
+
+                    <img src="./img/libro2.png"
+                         class="card-img-top"
+                         alt="Portada del libro 2">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            La Vegetariana
+                        </h3>
+
+                        <p class="autor-libro">
+                            KANG, HAN
+                        </p>
+
+                        <p class="genero-libro">
+                            Género: Ficción moderna y contemporánea
+                        </p>
+
+                        <p class="precio-libro">
+                            $34.999,00
+                        </p>
+
+                        <a href="paginas/libros.html"
+                           class="btn btn-libro-card">
+                            Ver más
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4">
+
+                <div class="card libro-card h-100">
+
+                    <img src="./img/libro3.png"
+                         class="card-img-top"
+                         alt="Portada del libro 3">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Cadaver Exquisito
+                        </h3>
+
+                        <p class="autor-libro">
+                            BAZTERRICA, AGUSTINA
+                        </p>
+
+                        <p class="genero-libro">
+                            Género: Ficción moderna y contemporánea
+                        </p>
+
+                        <p class="precio-libro">
+                            $46.699,00
+                        </p>
+
+                        <a href="paginas/libros.html"
+                           class="btn btn-libro-card">
+                            Ver más
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section class="contacto-inicio">
+
+    <div class="container text-center">
+
+        <h2>¿Buscás un libro en particular?</h2>
+
+        <p>
+            Escribinos y te ayudamos a encontrar ese libro
+            que estás buscando.
+        </p>
+
+        <a class="btn btn-contacto" href="paginas/contacto.html">
+            Contactanos
+        </a>
+
+    </div>
+
+</section>
+ 
+</main>
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row gy-4 align-items-start">
+
+            <div class="col-12 col-md-4">
+
+                <a href="index.html" class="footer-logo-link">
+                    <img src="./img/logo2.jpg"
+                         alt="Logo Entre Líneas"
+                         class="footer-logo">
+                </a>
+
+                <p class="footer-descripcion">
+                    Libros, historias y nuevas lecturas para descubrir.
+                </p>
+
+            </div>
+
+            <div class="col-12 col-md-4">
+
+                <h3>Información legal</h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">
+                            Política de Privacidad
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Términos de Servicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Aviso Legal
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-12 col-md-4 footer-redes">
+
+                <h3>Seguinos</h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="https://www.instagram.com/"
+                           target="_blank">
+                            Instagram
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/"
+                           target="_blank">
+                            Facebook
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="footer-copyright text-center">
+            © 2026 Entre Líneas - Todos los derechos reservados.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>
