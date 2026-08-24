@@ -162,12 +162,16 @@
 
 .libro-card img {
     width: 100%;
-    height: 550px;
-    object-fit: cover;
+    aspect-ratio: 2 / 3;
+    object-fit: contain;
+    display: block;
+    background-color: #ffffff;
 }
 
 .libro-card .card-body {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .libro-card .card-title {
@@ -196,7 +200,8 @@
     background-color: #1B2940;
     color: #F6F3ED;
     border: none;
-
+    margin-top: auto;
+    align-self: flex-start;
     transition: background-color 0.3s ease;
 }
 
