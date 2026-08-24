@@ -31,7 +31,7 @@
 
     <header>
 
-        <!-- NAVBAR -->
+<!-- NAVBAR -->
 
         <nav class="navbar bg-body-tertiary">
 
@@ -85,7 +85,7 @@
 
     <main>
 
-        <!-- CONTACTO -->
+<!-- CONTACTO -->
 
         <section class="seccion-contacto">
 
@@ -102,13 +102,11 @@
                     </p>
 
 
-                    <!-- FORMULARIO -->
+<!-- FORMULARIO -->
 
-                    <form>
+                    <form action="contacto.html" method="get">
 
                         <div class="row g-3">
-
-                            <!-- NOMBRE -->
 
                             <div class="col-12 col-md-6">
 
@@ -117,14 +115,13 @@
                                 </label>
 
                                 <input type="text"
-                                       class="form-control"
-                                       id="nombre"
-                                       placeholder="Ingresá tu nombre">
+                                    class="form-control"
+                                    id="nombre"
+                                    name="nombre"
+                                    placeholder="Ingresá tu nombre"
+                                    required>
 
                             </div>
-
-
-                            <!-- APELLIDO -->
 
                             <div class="col-12 col-md-6">
 
@@ -133,14 +130,13 @@
                                 </label>
 
                                 <input type="text"
-                                       class="form-control"
-                                       id="apellido"
-                                       placeholder="Ingresá tu apellido">
+                                    class="form-control"
+                                    id="apellido"
+                                    name="apellido"
+                                    placeholder="Ingresá tu apellido"
+                                    required>
 
                             </div>
-
-
-                            <!-- CORREO -->
 
                             <div class="col-12">
 
@@ -149,14 +145,13 @@
                                 </label>
 
                                 <input type="email"
-                                       class="form-control"
-                                       id="correo"
-                                       placeholder="ejemplo@correo.com">
+                                    class="form-control"
+                                    id="correo"
+                                    name="correo"
+                                    placeholder="ejemplo@correo.com"
+                                    required>
 
                             </div>
-
-
-                            <!-- TELÉFONO -->
 
                             <div class="col-12">
 
@@ -165,14 +160,13 @@
                                 </label>
 
                                 <input type="tel"
-                                       class="form-control"
-                                       id="telefono"
-                                       placeholder="Ingresá tu número de teléfono">
+                                    class="form-control"
+                                    id="telefono"
+                                    name="telefono"
+                                    placeholder="Ingresá tu número de teléfono"
+                                    required>
 
                             </div>
-
-
-                            <!-- MENSAJE -->
 
                             <div class="col-12">
 
@@ -181,18 +175,17 @@
                                 </label>
 
                                 <textarea class="form-control"
-                                          id="mensaje"
-                                          rows="6"
-                                          placeholder="Escribí tu mensaje"></textarea>
+                                        id="mensaje"
+                                        name="mensaje"
+                                        rows="6"
+                                        placeholder="Escribí tu mensaje"
+                                        required></textarea>
 
                             </div>
 
-
-                            <!-- BOTÓN -->
-
                             <div class="col-12 text-center">
 
-                                <button type="button"
+                                <button type="submit"
                                         class="btn btn-enviar">
                                     Enviar
                                 </button>
@@ -212,7 +205,7 @@
     </main>
 
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
 
     <footer class="footer">
 
@@ -245,19 +238,19 @@
                     <ul class="footer-links">
 
                         <li>
-                            <a href="#">
+                            <a href="../paginas/pagina404.html">
                                 Política de Privacidad
                             </a>
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="../paginas/pagina404.html">
                                 Términos de Servicio
                             </a>
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="../paginas/pagina404.html">
                                 Aviso Legal
                             </a>
                         </li>
