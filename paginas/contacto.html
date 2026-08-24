@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="es_AR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ana Paula Soler">
+
+    <meta name="description" content="Página de contacto de Entre Líneas">
+
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/index.css">
+
+    <link rel="stylesheet" href="../css/contacto.css">
+
+    <title>Contacto | Entre Líneas</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar bg-body-tertiary">
+
+            <div class="container-fluid d-flex flex-column flex-md-row">
+
+                <a class="navbar-brand" href="../index.html">
+
+                    <img src="../img/logo1.png"
+                         alt="Logo Entre Líneas">
+
+                </a>
+
+                <ul class="navbar-nav flex-row gap-3">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="../index.html">
+                            Inicio
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="libros.html">
+                            Libros
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="contacto.html">
+
+                            Contacto
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- CONTACTO -->
+
+        <section class="seccion-contacto">
+
+            <div class="container">
+
+                <div class="formulario-contacto">
+
+                    <h1 class="text-center">
+                        Contacto
+                    </h1>
+
+                    <p class="texto-contacto text-center">
+                        Completá el formulario y dejanos tu consulta.
+                    </p>
+
+
+                    <!-- FORMULARIO -->
+
+                    <form>
+
+                        <div class="row g-3">
+
+                            <!-- NOMBRE -->
+
+                            <div class="col-12 col-md-6">
+
+                                <label for="nombre" class="form-label">
+                                    Nombre
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nombre"
+                                       placeholder="Ingresá tu nombre">
+
+                            </div>
+
+
+                            <!-- APELLIDO -->
+
+                            <div class="col-12 col-md-6">
+
+                                <label for="apellido" class="form-label">
+                                    Apellido
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="apellido"
+                                       placeholder="Ingresá tu apellido">
+
+                            </div>
+
+
+                            <!-- CORREO -->
+
+                            <div class="col-12">
+
+                                <label for="correo" class="form-label">
+                                    Correo Electrónico
+                                </label>
+
+                                <input type="email"
+                                       class="form-control"
+                                       id="correo"
+                                       placeholder="ejemplo@correo.com">
+
+                            </div>
+
+
+                            <!-- TELÉFONO -->
+
+                            <div class="col-12">
+
+                                <label for="telefono" class="form-label">
+                                    Número de teléfono
+                                </label>
+
+                                <input type="tel"
+                                       class="form-control"
+                                       id="telefono"
+                                       placeholder="Ingresá tu número de teléfono">
+
+                            </div>
+
+
+                            <!-- MENSAJE -->
+
+                            <div class="col-12">
+
+                                <label for="mensaje" class="form-label">
+                                    Mensaje
+                                </label>
+
+                                <textarea class="form-control"
+                                          id="mensaje"
+                                          rows="6"
+                                          placeholder="Escribí tu mensaje"></textarea>
+
+                            </div>
+
+
+                            <!-- BOTÓN -->
+
+                            <div class="col-12 text-center">
+
+                                <button type="button"
+                                        class="btn btn-enviar">
+                                    Enviar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row gy-4 align-items-start">
+
+                <div class="col-12 col-md-4">
+
+                    <a href="../index.html"
+                       class="footer-logo-link">
+
+                        <img src="../img/logo2.jpg"
+                             alt="Logo Entre Líneas"
+                             class="footer-logo">
+
+                    </a>
+
+                    <p class="footer-descripcion">
+                        Libros, historias y nuevas lecturas para descubrir.
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4">
+
+                    <h3>Información legal</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="#">
+                                Política de Privacidad
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Términos de Servicio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Aviso Legal
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 footer-redes">
+
+                    <h3>Seguinos</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="https://www.instagram.com/"
+                               target="_blank">
+
+                                Instagram
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.facebook.com/"
+                               target="_blank">
+
+                                Facebook
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+
+            <p class="footer-copyright text-center">
+                © 2026 Entre Líneas - Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
