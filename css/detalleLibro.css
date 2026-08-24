@@ -72,6 +72,33 @@
     line-height: 1.8;
 }
 
+.comprar-libro {
+    margin-top: 50px;
+}
+
+.btn-comprar {
+    background-color: #1B2940;
+    color: #F6F3ED;
+
+    padding: 12px 32px;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 6px;
+
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #B0896A;
+    color: #F6F3ED;
+
+    transform: translateY(-3px);
+}
+
 /* Video */
 
 .video-libro {
